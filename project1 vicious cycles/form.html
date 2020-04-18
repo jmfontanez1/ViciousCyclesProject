@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="myStyles.css">
+    <meta charset="utf-8">
+    <meta name="description" content="Vicious Cycles">
+    <header><a href="index.html">
+        <img src="Vicious-Cycle-Logo(1).png" alt="Vicious Cycles Logo"></a>
+    </header>
+</head>
+<title> Contact Form </title>
+<body>
+<h1> Please fill out this form and a member of our mechanics team will contact you within 48 hours</h1>
+<form id="mechanic contact form" method="POST">
+    <label for="name">First and Last name</label><input type="text" name="name" id="name"><br><br>
+    <label for="email">E-mail address</label><input type="email" name="email" id="email"><br><br>
+    <label for="phone number">Phone number</label><input type="tel" name="phone number" id="phone"><br><br>
+    <label for="contact method">Preffered method of contact</label><input type="radio" name="contact method" value="Email" id="contact method"><label for="email">E-mail</label>
+    <input type="radio" name="contact method" value="Phone" id="contact method"><label for="phone">Phone</label><br><br>
+    <label for="Topic">Topic</label>
+    <select name="Topic" id="Topic" multiple>
+        <option value="Purchase">Purchase</option>
+        <option value="Repair">Repair</option>
+        <option value="Custom Work">Custom Work</option>
+        <option value="Other">Other</option>
+    </select><br><br>
+        <label for="More Info">Brief description of what you need to be contacted about</label>
+        <textarea id="More Info" name="More Info"></textarea><br><br>
+    <label for="found us">How did you hear about us?</label><input type="checkbox" name="found us" value="search engine" in="found us"><label for="search engine">Search engine</label>
+    <input type="checkbox" name="found us" value="word of mouth" in="found us"><label for="word of mouth">Word of mouth</label>
+    <input type="checkbox" name="found us" value="printed ad" in="found us"><label for="printed ad">Printed ad</label>
+    <input type="checkbox" name="found us" value="other" in="found us"><label for="other">Other</label><br><br>
+        <input type="submit" value="Send"><br><br>
+
+<p>
+<a href="index.html" target="_self">Return to Vicious Cycles homepage.</a>
+</p>
+
+</body>
+</html>

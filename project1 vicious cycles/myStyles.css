@@ -1,0 +1,135 @@
+body {
+    background-color: #D3D3D3;
+    width: 80%;
+    margin: 30px 30px 30px 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #200a81;
+
+}
+input, select, textarea{
+    font-family: inherit;
+    font-size: 100%;
+    color: black
+    width: 150px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input[type="text"], input[type="tel"], input[type="email"], input[type="textarea"], input[type="select"] {
+    width: 12em;
+    padding: 5px;
+    margin: 10px, 10px, 10px, 0px;
+    border-radius: 6px;
+}
+textarea{
+    vertical-align: middle;
+}
+select{
+    vertical-align: middle;
+}
+
+.cycle {
+max-width: 40%;
+height: auto;
+}
+
+header img {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    max-width: 1000px;
+    width: 80%;
+    min-width: 200px;
+    }
+.facebook {
+    height: auto;
+    width: 100px;
+    padding: 0px 20px 0 0;
+}
+.twitter {
+    height: auto;
+    width: 100px;
+    padding: 0 20px 0 0;
+}
+
+.MountainBike{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: auto;
+    padding: 0px,10px, 2000px, 10px;
+    border: 2px solid black;
+}
+
+.CruiserBike{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: auto;
+    padding: 0px,10px, 10px, 10px;
+    border: 2px solid black;
+}
+
+.VintageBike{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: auto;
+    padding: 0px,10px, 10px, 10px;
+    border: 2px solid black;
+}
+
+.TechAccessories{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: auto;
+    padding: 0px,10px, 10px, 10px;
+    border: 2px solid black;
+}
+
+.Gears{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: auto;
+    padding: 0px,10px, 10px, 10px;
+    border: 2px solid black;
+}
+
+.helmet{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: auto;
+    padding: 0px,10px, 10px, 10px;
+    border: 2px solid black;
+}
+h1 {
+        font-size: 1.6em;
+        color: rgb(97, 18, 18);
+        text-align: center;
+      }
+h2 {
+        font-size: 1.4em;
+        color: rgb(97, 18, 18);
+        text-align: center;
+      }
+h3 {
+        font-size: 1.3em;
+        color: rgb(97, 18, 18);
+        text-align: center;
+      }
+input [type="text, email, tel, radio, textarea"] {
+    font-size: 2em;
+}
+label{
+    color: rgb(97, 18, 18)
+}
